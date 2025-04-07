@@ -8,13 +8,13 @@ const testimonials = [
     name: "Adedayo Olamide",
     comment:
       "As a vendor on Naija-Cart, I've been able to reach customers across Nigeria. The platform is user-friendly, and their support team is always there to help.",
-    image: {ImageCom},
+    image: ImageCom,
   },
   {
     name: "Chukwuemeka Uzo",
     comment:
       "I never imagined I could build a working prototype in 48 hours. The event pushed my limits and I'm grateful!",
-    image: "https://source.unsplash.com/random/150x150?person2",
+    image: ImageCom,
   },
   {
     name: "Fatima Bello",
@@ -26,7 +26,7 @@ const testimonials = [
     name: "Ifeanyi Okoro",
     comment:
       "Great mentorship and awesome teams. NaijaHacks is the best place to start building your tech journey.",
-    image: "https://source.unsplash.com/random/150x150?person4",
+    image: ImageCom,
   },
 ];
 

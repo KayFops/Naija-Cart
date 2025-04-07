@@ -28,7 +28,7 @@ const ProductCard = (props) => {
       <div className='mt-4 flex flex-col gap-2 px-4'>
         <h1 className='text-2xl font-bold'>{name}</h1>
         <p>{props.description}</p>
-        <p className='flex items-center gap-2'><Star /><span className='text-gray-600'><span className='text-black'>4.8 </span>(167)</span></p>
+        <p className='flex items-center gap-2'><Star className='text-yellow-500'  /><span className='text-gray-600'><span className='text-black'>4.8 </span>(167)</span></p>
         <p className='font-bold text-3xl'>₦{price}</p>
         
         <div className='mt-2 flex justify-center'>
