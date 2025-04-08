@@ -1,12 +1,11 @@
 // No need to import types
 // import { Product } from "../stores/cart-store";
-
-export const products = [
+export const allProducts = [
   {
     id: "1",
     name: "Nigerian Handmade Clay Pot",
     price: 3500,
-    image: "https://images.unsplash.com/photo-1610701596061-2ecf227e85b2?...",
+    image: "https://www.vtcclaypotindia.com/wp-content/uploads/2019/05/clay-bean-pot-large.jpg",
     category: "Home & Living",
     vendor: "Craft Nigeria",
     description: "Beautiful handcrafted clay pot made by skilled Nigerian artisans. Perfect for home decoration or as a thoughtful gift.",
@@ -37,7 +36,7 @@ export const products = [
     id: "4",
     name: "Adire Throw Pillow Covers",
     price: 2800,
-    image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?...",
+    image: "https://ih1.redbubble.net/image.1663258709.1300/ur,throw_pillow_couch_small,wide_portrait,600x600.jpg",
     category: "Home & Living",
     vendor: "Adire Designs",
     description: "Set of 2 throw pillow covers with traditional Adire patterns. Made from 100% cotton with hidden zipper closure.",
@@ -82,6 +81,50 @@ export const products = [
     vendor: "Natural Nigeria",
     description: "Pure, unrefined shea butter sourced from Northern Nigeria. Great for skin moisturizing and hair treatment.",
     slug: "shea-butter-100-natural"
+  },
+];
+
+export const products = [
+  {
+    id: "1",
+    name: "Nigerian Handmade Clay Pot",
+    price: 3500,
+    image: "https://www.vtcclaypotindia.com/wp-content/uploads/2019/05/clay-bean-pot-large.jpg",
+    category: "Home & Living",
+    vendor: "Craft Nigeria",
+    description: "Beautiful handcrafted clay pot made by skilled Nigerian artisans. Perfect for home decoration or as a thoughtful gift.",
+    slug: "nigerian-handmade-clay-pot"
+  },
+  {
+    id: "2",
+    name: "Ankara Fabric - 6 Yards",
+    price: 4500,
+    image: "https://www.lighttrybe.ng/wp-content/uploads/2021/10/ankara-fabric-african-real-wax-print-cotton-100-new-design-2021-tissus-wax-africain-patchwork-fabric.jpg",
+    category: "Fashion",
+    vendor: "Lagos Fabrics",
+    description: "Premium quality Ankara fabric with vibrant traditional patterns. 6 yards, perfect for dresses, shirts, or home decor.",
+    slug: "ankara-fabric-6-yards"
+
+  },
+  {
+    id: "3",
+    name: "African Black Soap",
+    price: 1200,
+    image: "https://osmiaskincare.com/cdn/shop/articles/Untitled_design.jpg?v=1704920985",
+    category: "Beauty & Personal Care",
+    vendor: "Natural Nigeria",
+    description: "Traditional African black soap made with natural ingredients. Great for all skin types, especially sensitive skin.",
+    slug: "african-black-soap"
+  },
+  {
+    id: "4",
+    name: "Adire Throw Pillow Covers",
+    price: 2800,
+    image: "https://ih1.redbubble.net/image.1663258709.1300/ur,throw_pillow_couch_small,wide_portrait,600x600.jpg",
+    category: "Home & Living",
+    vendor: "Adire Designs",
+    description: "Set of 2 throw pillow covers with traditional Adire patterns. Made from 100% cotton with hidden zipper closure.",
+    slug: "adire-throw-pillow-covers"
   },
 ];
 

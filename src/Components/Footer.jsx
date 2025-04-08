@@ -10,7 +10,7 @@ const Footer = () => {
         <p className='py-4'>Nigeria's most trusted online marketplace for convenient and affordable shopping.</p>
         <button className='bg-[#FF9017] w-full rounded-md font-medium  px-6 py-3 text-white'>Subscribe</button>
         </div>
-        <div className='lg:col-span-1 flex justify-between'>
+        <div className='lg:col-span-1 flex justify-between items-center'>
             <div>
                 <h6 className='font-medium text-white'>Quicklinks</h6>
                 <ul>

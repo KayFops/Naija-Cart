@@ -24,7 +24,7 @@ const Header = () => {
       dispatch(toggleStatusTab());
      } 
   return (
-    <nav className='fixed bg-white w-full flex justify-between items-center h-24  px-[70px] m-auto text-black z-10' >
+    <nav className='fixed bg-white w-full flex justify-between items-center h-24  px-[3rem] md:px-[70px] m-auto text-black z-10' >
          <Link to='/'><h2 className='flex w-full text-3xl font-bold text-[#FF9017] items-center'><span className='text-[#0F973D]'><FiShoppingBag /></span>Naija <span className='text-[#0F973D]'>-Cart</span></h2></Link>
         <ul className='hidden md:flex'>
             <li className='p-4'><Link to='/'>Home</Link></li>
