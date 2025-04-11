@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleStatusTab } from '../stores/cart';
 import about from '../Pages/About';
+import CartTab from '../stores/cartTab';
 const Header = () => {
      const [nav, setNav] = useState(false)
      const handleNav = () => [
@@ -34,10 +35,18 @@ const Header = () => {
             <li className='p-4'><Link to='/about'>About</Link></li>
         </ul>
         <label className='hidden md:flex border rounded-md items-center px-4 py-2' htmlFor=""><CiSearch /><input className='px-2 placeholder::pr-[100px] ' type="search" name="" id="" placeholder='Search' /></label>
-        <div className='w-10 h-10 bg-gray-100 rounded-full flex justify-center items-center relative' onClick={handleOpenTabCart}>
-          <div className='w-6 relative'><ShoppingCart size={30}/></div>
-          <span className='absolute -top-1 -right-1 bg-red-500 text-white text-sm w-5 h-5 rounded-full flex justify-center items-center'>{totalQuantity}</span>
-        </div>
+        <Link
+  to="/cartTab"
+  className="w-10 h-10 bg-gray-100 rounded-full flex justify-center items-center relative transition-all duration-300 ease-in-out hover:bg-[#FF9017]/10 hover:scale-105 hover:shadow-md group"
+>
+  <div className="w-6 relative transition-transform duration-300 group-hover:rotate-6">
+    <ShoppingCart size={24} className="text-[#FF9017]" />
+  </div>
+  <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex justify-center items-center shadow-sm">
+    {totalQuantity}
+  </span>
+</Link>
+
         <div className='hidden md:flex my-3'>
         <Link to='/signin' className='bg-[#E7F6EC] mx-2 font-bold text-[#0F973D] px-6 py-2 rounded hover:bg-[#00df9a] hover:scale-105 duration-300 '>Sign In</Link> 
             <Link to='/signup' className='bg-[#0F973D] mx-4 font-bold text-white px-6 py-2 rounded hover:bg-gray-300 hover:text-[#00df9a] hover:scale-105 duration-300'>Sign Up</Link>
