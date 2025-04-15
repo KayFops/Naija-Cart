@@ -10,9 +10,9 @@ const About = () => {
           alt="About Naija Cart"
           className="h-[40vh] w-full object-cover"
         />
-        <div className="absolute inset-0 z-20 flex items-center">
+        <div className="absolute inset-0  flex items-center">
           <div className="naija-container">
-            <div className="max-w-2xl text-white">
+            <div className="max-w-2xl text-black">
               <h1 className="text-4xl font-bold">About Naija Cart</h1>
               <p className="mt-4 text-lg">
                 Connecting Nigerian artisans and businesses with customers worldwide
